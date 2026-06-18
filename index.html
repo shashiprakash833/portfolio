@@ -396,6 +396,35 @@
     animation: grow 1.5s ease forwards;
     transform-origin: left;
   }
+.linkdin,
+.github {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 180px;
+  height: 44px;
+  border-radius: 10px;
+  border: 1px solid #444;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  transition: opacity 0.2s ease;
+}
+
+.linkdin {
+  background: #29b166;
+}
+
+.github {
+  background: #29b166;
+}
+
+.linkedin:hover,
+.github:hover {
+  opacity: 0.85;
+}
   @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 
   /* PROJECTS */
@@ -705,6 +734,7 @@
 .resume-frame {
   width: 100%; height: 500px; border: none; display: block;
 }
+
   @keyframes scrollDown {
     0%, 100% { opacity: 0; transform: scaleY(0.5) translateY(-10px); }
     50% { opacity: 1; transform: scaleY(1) translateY(0); }
@@ -999,11 +1029,12 @@
           </div>
           <div class="contact-item">
             <div class="contact-item-icon">💼</div>
-            <span>linkedin.com/in/shashiprakash-paladugu-baa0121b2</span>
+            <a href="https://www.linkedin.com/in/shashiprakash-paladugu-baa0121b2/" class="proj-btn proj-btn-ghost">LINKEDIN</a>
           </div>
           <div class="contact-item">
             <div class="contact-item-icon">🐙</div>
-            <span>https://github.com/shashiprakash833</span>
+          <a href="https://github.com/shashiprakash833" class="proj-btn proj-btn-ghost">GITHUB</a>
+            
           </div>
         </div>
       </div>
@@ -1032,8 +1063,8 @@
     © 2025 <span>Paladugu Shashiprakash</span> · Built with 💚 &amp; CONFIDENCE
   </div>
   <div class="socials">
-    <a href="#" class="social-btn" title="GitHub">⌥</a>
-    <a href="#" class="social-btn" title="LinkedIn">in</a>
+    <a href="https://github.com/shashiprakash833" class="social-btn" title="GitHub">⌥</a>
+    <a href="https://www.linkedin.com/in/shashiprakash-paladugu-baa0121b2/" class="social-btn" title="LinkedIn">in</a>
     <a href="#" class="social-btn" title="Twitter">𝕏</a>
   </div>
 </footer>
