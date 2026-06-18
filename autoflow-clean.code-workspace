@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Users/praka/Downloads/autoflow-clean"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "portfolio"
+	}
+}
